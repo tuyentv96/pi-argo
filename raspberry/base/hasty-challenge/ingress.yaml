@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - job-api.picluster.xyz
+    - job-api.tuyenpc.online
     secretName: job-api-tls
   rules:
-  - host: job-api.picluster.xyz
+  - host: job-api.tuyenpc.online
     http:
       paths:
         - path: /
