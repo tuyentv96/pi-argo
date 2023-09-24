@@ -3,4 +3,3 @@ kind: Kustomization
 
 resources:
 - nginx-ingress.yaml
-- staging-issuer.yaml
