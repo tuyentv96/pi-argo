@@ -9,10 +9,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - grafana.picluster.xyz
-    secretName: grafana-tls
+    - grafana.tuyenpc.online
+    secretName: letsencrypt-prod
   rules:
-  - host: grafana.picluster.xyz
+  - host: grafana.tuyenpc.online
     http:
       paths:
         - path: /
