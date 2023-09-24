@@ -39,9 +39,7 @@ spec:
           readOnly: false
       securityContext:
         fsGroup: 472
-        runAsNonRoot: true
         runAsUser: 472
-        runAsGroup: 472
       serviceAccountName: grafana
       volumes:
         - name: grafana-storage
