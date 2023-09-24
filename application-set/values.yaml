@@ -12,7 +12,7 @@ template: |
     project: default
     source:
       path: {{ $app.path }}
-      repoURL: https://github.com/tuyentv96/argo-cd-example
+      repoURL: https://github.com/tuyentv96/pi-argo
       targetRevision: HEAD
     syncPolicy:
       automated:
