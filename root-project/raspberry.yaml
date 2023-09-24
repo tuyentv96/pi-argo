@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     path: application-set
-    repoURL: https://github.com/tuyentv96/argo-cd-example
+    repoURL: https://github.com/tuyentv96/pi-argo
     targetRevision: HEAD
     helm:
       values: |
