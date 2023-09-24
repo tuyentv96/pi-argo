@@ -12,7 +12,7 @@ spec:
   tls:
   - hosts:
     - argocd.tuyenpc.online
-    secretName: argocd-tls
+    secretName: letsencrypt-staging
   rules:
   - host: argocd.tuyenpc.online
     http:
