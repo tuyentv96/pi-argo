@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: redis
+  name: postgresql
   namespace: argocd
 spec:
   project: default
   source:
-    path: infra/redis
+    path: infra/postgresql
     repoURL: https://github.com/tuyentv96/pi-argo
     targetRevision: HEAD
   destination:
